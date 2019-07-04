@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - grunt-contrib-compress > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt-contrib-compress > archiver > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt-contrib-compress > archiver > archiver-utils > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt-contrib-compress > archiver > async > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt-contrib-compress > archiver > zip-stream > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
+    - grunt-contrib-compress > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T07:42:44.163Z'
